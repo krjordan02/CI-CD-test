@@ -7,6 +7,6 @@ function sample_test(){
 describe("master test", () => {
   test("sample_test", () => {
     let response = sample_test();
-    expect(response).toEqual("SUCCESS")
+    expect(response).toEqual("FAIL")
   })
 })
